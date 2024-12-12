@@ -1,0 +1,128 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    height: 100dvh;
+    min-height: 500px;
+
+    .home {
+        max-width: 200px;
+    }
+
+    span {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+
+        a {
+            margin: 0;
+
+            img {
+                width: 30px;
+            }
+        }
+    }
+
+    a {
+        width: fit-content;
+        align-self: center;
+    }
+
+    button {
+        font-family: 'Montserrat';
+        background-color: var(--btn-colour);
+        color: var(--btn-text-colour);
+        border: none;
+        border-radius: 20px;
+        width: 126px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: 650;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+    }
+
+    button:active {
+        transform: translateY(2px);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.colourModeContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.colourMode {
+    position: absolute;
+    right: 0;
+    width: 25px;
+}
+
+.colourMode:hover {
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.typewriter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+
+    p {
+        margin-right: 6px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+        .home {
+            max-width: 350px;
+            width: 350px;
+        }
+    }
+}
+
+@media (width >= 800px) {
+    .container {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .home {
+            max-width: 350px;
+            width: 350px;
+        }
+    }
+}
+
+@media (width >= 1400px) {
+    .container {
+        .home {
+            max-width: 400px;
+            width: 400px;
+        }
+    }
+}

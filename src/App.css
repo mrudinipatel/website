@@ -1,0 +1,107 @@
+:root {
+  --background-colour: #fff;
+  --btn-colour: #fff5f7;
+  --btn-text-colour: #f9c6d3;
+  --project-card-background: #fffffff00;
+  --text-colour: #222;
+  --form-text-colour: #555;
+  --footer-text-colour: #f9c6d3;
+}
+
+[data-theme='dark'] {
+  --background-colour: #222;
+  --btn-colour: #fff5f7;
+  --btn-text-colour: #f9c6d3;
+  --project-card-background: #fff;
+  --text-colour: #fff;
+  --form-text-colour: #fff;
+  --footer-text-colour: #f9c6d3;
+}
+
+body {
+  background-color: var(--background-colour);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 60px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+h1, h2, h3, p {
+  color: var(--text-colour);
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3, p {
+  font-family: 'Montserrat';
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h2, h3 {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 32px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 00;
+}
+
+.sectionTitle {
+  margin-bottom: 30px;
+}
+
+.hover {
+  /* maybe add a cute cursor image */
+  cursor: pointer; 
+}
+
+@media (width >= 800px) {
+  #root {
+    gap: 100px;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2, h3 {
+    font-size: 24px;
+  }
+  
+  p{
+    font-size: 20px;
+  }
+
+  .sectionTitle {
+    margin-bottom: 60px;
+  }
+}
+
+@media (width >= 1400px) {
+  #root {
+    gap: 200px;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+
+  .sectionTitle {
+    margin-bottom: 75px;
+  }
+}

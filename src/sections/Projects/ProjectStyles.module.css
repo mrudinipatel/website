@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+    margin: 0 40px;
+    
+    img {
+        max-width: 85%;
+        height: auto;
+        align-self: center;
+        background-color: var(--project-card-background);
+        border-radius: 30px;
+    }
+    
+    a {
+        width: fit-content;
+        text-decoration: none;
+        color: black;
+        transition: transform 200ms ease-in-out;
+    }
+    
+    a:hover {
+        transform: scale(1.05);
+    }
+
+    h3 {
+        margin: 10px 0;
+    }
+    
+    p {
+        margin: 10px 0;
+    }
+}
+
+.projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .projectsContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
