@@ -10,25 +10,25 @@ const projectData = [
     src: moleculeParser,
     link: "https://github.com/mrudinipatel/Molecule-Parser",
     projectTitle: "Molecule Parser",
-    projectInfo: "Visual simulation of SDF files.",
+    projectInfo: "Visual molecule simulator",
   },
   {
     src: courseSearch,
     link: "https://github.com/mrudinipatel/Course-Search",
-    projectTitle: "Course Search",
-    projectInfo: "UoGuelph course planner.",
+    projectTitle: "CourseSearch",
+    projectInfo: "UoGuelph course planner",
   },
   {
     src: gradebook,
     link: "https://github.com/mrudinipatel/Student-Class-Management-System",
-    projectTitle: "Student Class Management System",
-    projectInfo: "Gradebook tool for teachers.",
+    projectTitle: "Classroom Manager",
+    projectInfo: "Grading tool for professors",
   },
   {
     src: weatherNetwork,
     link: "https://github.com/mrudinipatel/Weather-Network-Program",
     projectTitle: "Weather Network",
-    projectInfo: "Python app to check your local weather.",
+    projectInfo: "Local weather app",
   },
 ];
 

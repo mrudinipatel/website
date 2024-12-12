@@ -6,11 +6,10 @@
     margin: 0 40px;
     
     img {
-        max-width: 85%;
+        max-width: 70%;
         height: auto;
         align-self: center;
         background-color: var(--project-card-background);
-        border-radius: 30px;
     }
     
     a {
@@ -48,5 +47,7 @@
 @media (max-width: 800px) {
     .projectsContainer {
         grid-template-columns: repeat(1, 1fr);
+        max-width: 100%;
+        width: 800px;
     }
 }
