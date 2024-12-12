@@ -1,0 +1,111 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    margin: 0 40px;
+    font-family: 'Mulish';
+
+    hr {
+        width: 80%;
+        margin: 20px auto;
+        border-top: 0.2px solid var(--aboutMe-section-text-colour); 
+    }
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 20px; 
+    padding-left: 20px;
+
+    p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+}
+
+.body {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 20px;
+
+    p {
+        color: var(--aboutMe-section-text-colour); 
+        font-size: 18px;
+    }
+}
+
+.skillsTable {
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+    margin: 30px auto; 
+
+    table {
+        width: 40%; 
+        /* width: 100%; */
+        max-width: 800px; 
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
+
+    img {
+        width: 10px; 
+        height: auto;
+        margin-right: 8px;
+    }
+
+    th {
+        width: 33%;
+        font-weight: bold;
+        font-size: 1.2em;
+        color: var(--text-colour);
+    }
+
+    td {
+        width: 33%;
+        vertical-align: top;
+        text-align: left; 
+        color: var(--text-colour);
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+        font-size: 1em;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .container {
+        margin: 0 20px;
+    }
+
+    .header {
+        padding-left: 10px; 
+    }
+
+    .skillsTable {
+        margin: 20px auto; 
+    }
+
+    table {
+        width: 100%; 
+    }
+
+    th, td {
+        font-size: 1em;
+    }
+
+    img {
+        width: 8px;
+    }
+}

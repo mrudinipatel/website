@@ -29,12 +29,12 @@ function Home() {
             <div className={styles.info}>
                 <h1>Mrudini Patel</h1>
                 <div className={styles.typewriter}>
-                    <p>I'm</p>
+                    <p>I</p>
                     <Typewriter
                         strings={[
-                        "a computer science student",
-                        "a software developer",
-                        "interested in HCI",
+                        "study computer science",
+                        "am a software developer",
+                        "am interested in HCI",
                         ]}
                         autoStart={true}
                         loop={true}

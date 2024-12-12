@@ -4,8 +4,8 @@
   --btn-text-colour: #f9c6d3;
   --project-card-background: #fffffff00;
   --text-colour: #222;
-  --form-text-colour: #555;
   --footer-text-colour: #f9c6d3;
+  --aboutMe-section-text-colour: #767676;
 }
 
 [data-theme='dark'] {
@@ -14,8 +14,8 @@
   --btn-text-colour: #f9c6d3;
   --project-card-background: #fff;
   --text-colour: #fff;
-  --form-text-colour: #fff;
   --footer-text-colour: #f9c6d3;
+  --aboutMe-section-text-colour: #767676;
 }
 
 body {
