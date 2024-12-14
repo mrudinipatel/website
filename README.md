@@ -13,14 +13,14 @@ website: coming soon!
   <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
 </p>
 
-- Leveraging CSS3's built-in nesting features to enhance responsiveness.
+- Leveraging CSS3's built-in nesting features to enhance responsiveness and styling code readability.
 
 ### To Launch 🚀
 
-Navigate inside the repo and run:
-```npm install``` (if you don't have npm already)
-```npm run dev```
-Open the terminal-provided localhost url in a browser of your choice and voila! 🪄
+Navigate inside the repo and run:  
+```npm install``` (if you don't have npm already)  
+```npm run dev```  
+Open the terminal-provided localhost url in a browser of your choice and voilà! 🪄
 
 ### Ending Notes 💌
 
