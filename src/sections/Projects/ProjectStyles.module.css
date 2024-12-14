@@ -6,7 +6,8 @@
     margin: 0 auto;
     max-width: 100%;
     font-family: 'Mulish';
-    
+    scroll-margin-top: 60px;
+
     img {
         width: 100%;
         height: auto;

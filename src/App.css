@@ -1,22 +1,20 @@
 :root {
     --background-colour: #f8f8f8;
-    --btn-colour: #fff5f7;
-    --btn-text-colour: #f9c6d3;
+    --btn-colour: #feeff2;
     --project-card-background: #fffffff00;
-    --text-colour: #222;
-    --footer-text-colour: #f9c6d3;
-    --aboutMe-section-text-colour: #767676;
-    --navbar-background: #fff;
+    --text-colour: #141414;
+    --theme-text-colour: #f9c6d3;
+    --grey-text-colour: #767676;
+    --navbar-background: rgb(255, 255, 255);
 }
 
 [data-theme='dark'] {
     --background-colour: #141414;
-    --btn-colour: #fff5f7;
-    --btn-text-colour: #f9c6d3;
-    --project-card-background: #fff;
-    --text-colour: #fff;
-    --footer-text-colour: #f9c6d3;
-    --aboutMe-section-text-colour: #767676;
+    --btn-colour: #feeff2;
+    --project-card-background: #fffffff00;
+    --text-colour: #f8f8f8;
+    --theme-text-colour: #f9c6d3;
+    --grey-text-colour: #767676;
     --navbar-background: rgba(0, 0, 0, 0.452);
 }
 

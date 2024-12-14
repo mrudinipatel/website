@@ -26,7 +26,7 @@ function Home() {
                     onClick={toggleTheme}
                 />
             </nav>
-            <div className={styles.colourModeContainer}>
+            <div className={styles.pfpContainer}>
                 <img 
                     className={styles.home} 
                     src={me} 
@@ -49,7 +49,7 @@ function Home() {
                 </div>
                 <Socials />
                 <a href={CV} target="_blank"> 
-                    <button className="hover">Resume</button>
+                    <button className="hover">Resumé</button>
                 </a>
             </div>
         </section>
