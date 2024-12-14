@@ -5,22 +5,24 @@
     gap: 30px;
     margin: 0 40px;
     font-family: 'Mulish';
+    padding: 0 80px;
 
     hr {
         width: 80%;
-        margin: 20px auto;
-        border-top: 0.2px solid var(--aboutMe-section-text-colour); 
+        margin: 0 20px;
+        border: 0.2px solid var(--aboutMe-section-text-colour); 
     }
 }
 
 .header {
     text-align: left;
     margin-bottom: 20px; 
+    padding: 0 80px;
     padding-left: 20px;
 
     p {
         margin-top: 10px;
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 

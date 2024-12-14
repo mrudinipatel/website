@@ -4,7 +4,7 @@
     text-align: center;
     gap: 60px;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 100%;
     font-family: 'Mulish';
     
     img {
@@ -47,7 +47,7 @@
     font-family: 'Montserrat';
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .projectsContainer {
         grid-template-columns: repeat(1, 1fr);
         max-width: 100%;
@@ -55,6 +55,18 @@
     }
 
     img {
-        max-width: 70%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        padding: 0 100px;
+        align-items: center;
+    }
+
+    .projectsContainer {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: calc(100% - 100px);
     }
 }

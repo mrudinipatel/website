@@ -13,17 +13,24 @@ function Home() {
     
     return (
         <section className={styles.container} id="home">
-            <div className={styles.colourModeContainer}>
-                <img 
-                    className={styles.home} 
-                    src={me} 
-                    alt="Profile picture of Mrudini Patel" 
-                />
+            <nav className={styles.navbar}>
+                <ul className={styles.navLinks}>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                </ul>
                 <img 
                     className={styles.colourMode} 
                     src={themeIcon} 
                     alt="Colour Mode Icon" 
                     onClick={toggleTheme}
+                />
+            </nav>
+            <div className={styles.colourModeContainer}>
+                <img 
+                    className={styles.home} 
+                    src={me} 
+                    alt="Profile picture of Mrudini Patel" 
                 />
             </div>
             <div className={styles.info}>

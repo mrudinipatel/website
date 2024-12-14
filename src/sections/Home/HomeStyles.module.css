@@ -2,15 +2,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     text-align: center;
     height: 100dvh;
     min-height: 800px;
+    padding: 0 60px;
 
     .home {
-        max-width: 200px;
+        max-width: 300px;
+        min-width: 300px;
     }
 
+    /* socials */
     span {
         display: flex;
         gap: 25px;
@@ -21,8 +25,15 @@
 
             img {
                 width: 30px;
+                min-width: 30px;
             }
         }
+    }
+
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     a {
@@ -38,6 +49,8 @@
         border-radius: 20px;
         width: 126px;
         height: 50px;
+        min-width: 110px;
+        min-height: 40px;
         font-size: 20px;
         font-weight: 650;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -54,17 +67,51 @@
     }
 }
 
-.colourModeContainer {
-    position: relative;
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: var(--navbar-background);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+.navLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: var(--text-colour);
+    font-family: 'Mulish';
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 200ms ease-in-out;
+}
+
+.navLinks a:hover {
+    color: var(--highlight-colour);
 }
 
 .colourMode {
-    position: absolute;
-    right: 0;
     width: 25px;
+    height: 25px;
+    min-width: 20px;
+    cursor: pointer;
+    margin-left: 20px;
 }
 
 .colourMode:hover {
@@ -74,7 +121,7 @@
 .info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 .typewriter {
@@ -85,44 +132,95 @@
     font-size: 20px;
     font-family: Montserrat, sans-serif;
     font-weight: normal;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
     p {
-        margin-right: 6px;
+        margin-right: 4px;
     }
 }
 
-@media (max-width: 800px) {
+@media (width >= 320px) {
     .container {
-        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 0;
+
+        .home {
+            max-width: 250px;
+            width: 250px;
+        }
+
+        button {
+            font-size: 18px;
+            width: 110px;
+            height: 40px;
+            border-radius: 15px;
+        }
+    }
+
+    .typewriter {
+        p{
+            font-size: 14px;
+        }
+    }
+
+    .colourMode {
+        width: 20px;
+    }
+}
+
+
+@media (width >= 800px) {
+    .container {
         align-items: center;
         gap: 30px;
 
         .home {
-            max-width: 350px;
-            width: 350px;
+            max-width: 300px;
+            width: 300px;
         }
+
+        button {
+            font-size: 20px;
+            width: 126px;
+            height: 50px;
+            border-radius: 20px;
+        }
+    }
+
+    .typewriter {
+        p{
+            font-size: 18px;
+        }
+    }
+
+    .navLinks a {
+        font-size: 16px;
+    }
+
+    .colourMode {
+        width: 25px;
     }
 }
 
-@media (width >= 800px) {
+@media (width >= 1000px) {
     .container {
         flex-direction: row-reverse;
         align-items: center;
-        justify-content: space-evenly;
+        gap: 30px;
 
         .home {
-            max-width: 350px;
-            width: 350px;
+            max-width: 300px;
+            width: 300px;
+            padding-left: 60px;
         }
     }
-}
 
-@media (width >= 1400px) {
-    .container {
-        .home {
-            max-width: 400px;
-            width: 400px;
-        }
+    .navLinks a {
+        font-size: 18px;
+    }
+
+    .colourMode {
+        width: 30px;
     }
 }
