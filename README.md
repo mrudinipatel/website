@@ -17,12 +17,12 @@ website: coming soon!
 
 Navigate inside the repo and run:  
 
-For installation (if you don't have this already):
-```npm install```
-```npm install react-router-dom``` 
+For installation (if you don't have this already):  
+```npm install```  
+```npm install react-router-dom```   
 
-For compilation:
-```npm run dev```  
+For compilation:  
+```npm run dev```   
 
 Open the terminal-provided localhost url in a browser of your choice and voilà! 🪄
 
