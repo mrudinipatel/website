@@ -6,6 +6,7 @@ import CV from '../../assets/resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import Typewriter from './Typewriter';
 import Socials from './Socials';
+import { Link } from 'react-router-dom';
 
 function Home() {
     const { theme, toggleTheme } = useTheme();

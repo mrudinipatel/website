@@ -19,13 +19,17 @@ website: coming soon!
 
 Navigate inside the repo and run:  
 
-```npm install``` (if you don't have npm already)  
+For installation (if you don't have this already):
+```npm install```
+```npm install react-router-dom``` 
+
+For compilation:
 ```npm run dev```  
 
 Open the terminal-provided localhost url in a browser of your choice and voilà! 🪄
 
 ### Ending Notes 💌
 
-This website is, and always will be, a work in progress! As I navigate through life, I’ll do my best to keep it updated with my latest findings — mostly for my own record, but also for anyone curious. A section for my co-op experiences and a gallery for my hobbies are currently on my mind — but that’s just some food for thought (pun intended lol) :)
+This website is, and always will be, a work in progress! As I navigate through life, I’ll do my best to keep it updated with my latest findings — mostly for my own record, but also for anyone curious. A section for my co-op experiences and a gallery for my hobbies are currently on my mind — but that’s just some food for thought :)
 
 Thank you for stopping by <3

@@ -1,3 +1,4 @@
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 import './App.css'
 import Home from './sections/Home/Home';
 import Projects from './sections/Projects/Projects';
@@ -13,6 +14,6 @@ function App() {
       <Footer />
     </>
   );
-}
+};
 
 export default App
