@@ -3,7 +3,7 @@
     --btn-colour: #feeff2;
     --project-card-background: #fffffff00;
     --text-colour: #141414;
-    --theme-text-colour: #f9c6d3;
+    --theme-text-colour: #f999b1;
     --grey-text-colour: #767676;
     --navbar-background: rgba(255, 255, 255, 0.889);
 }
@@ -15,7 +15,7 @@
     --text-colour: #f8f8f8;
     --theme-text-colour: #f9c6d3;
     --grey-text-colour: #767676;
-    --navbar-background: rgba(0, 0, 0, 0.452);
+    --navbar-background: rgba(0, 0, 0, 0.889);
 }
 
 body {

@@ -12,7 +12,7 @@ function About() {
         <hr />
         <div className={styles.body}>
             <p>
-                Hello there! My name is Mrudini. I'm currently finishing my final year of computer science studies at the University of Guelph.  
+                Hello! My name is Mrudini. I'm currently finishing my final year of computer science studies at the University of Guelph.  
                 I have a passion for creating innovative, UI/UX-friendly websites that deliver seamless and engaging user experiences.
                 While front-end development fuels my creativity, I simultaneously also enjoy diving into the technical intricacies offered by
                 back-end and cloud development. I find fulfillment in building robust systems that not only support meaningful user interfaces,
