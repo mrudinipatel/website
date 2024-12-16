@@ -9,28 +9,28 @@
     scroll-margin-top: 60px;
 
     hr {
-        width: 80%;
-        margin: 0 20px;
+        width: 95%;
         border: 0.2px solid var(--grey-text-colour); 
     }
 }
 
 .header {
     text-align: left;
-    margin-bottom: 20px; 
-    padding: 0 80px;
-    padding-left: 20px;
+    padding: 0 20px;
 
     p {
-        margin-top: 10px;
-        font-size: 14px;
+        padding-top: 10px;
+        font-size: 16px;
     }
+}
+
+.bold {
+    color: var(--text-colour);
 }
 
 .body {
     text-align: left;
-    max-width: 800px;
-    margin: 0 20px;
+    padding: 0 20px;
 
     p {
         color: var(--grey-text-colour); 
@@ -38,77 +38,79 @@
     }
 }
 
-.skillsTable {
-    width: 100%;
-    margin-top: 20px;
+.skillsContainer {
     text-align: left;
-    margin: 30px auto; 
+    padding: 0 20px;
+}
 
-    table {
-        width: 40%; 
-        /* width: 100%; */
-        max-width: 800px; 
-        border-collapse: collapse;
-        table-layout: fixed;
-    }
+.skillList {
+    list-style: none;
+    padding-left: 0;
 
-    img {
-        width: 10px; 
-        height: auto;
-        margin-right: 8px;
-    }
-
-    th {
-        width: 33%;
-        font-weight: bold;
-        font-size: 1.2em;
-        color: var(--text-colour);
-    }
-
-    td {
-        width: 33%;
-        vertical-align: top;
-        text-align: left; 
-        color: var(--text-colour);
-    }
-
-    ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    li {
+    .skillItem {
         display: flex;
         align-items: center;
-        gap: 10px; 
-        font-size: 1em;
+        font-size: 16px;
+        padding: 5px 0;
+        color: var(--grey-text-colour);
     }
 }
 
+.bulletIcon {
+    width: 10px;
+    height: 10px;
+    padding-right: 20px;
+}
 
-
-@media (max-width: 800px) {
+@media (width >= 320px) {
     .container {
-        margin: 0 20px;
-    }
+        margin: 0;
+        padding: 0;
 
-    .header {
-        padding-left: 10px; 
-    }
+        .header p {
+            font-size: 14px;
+        }
 
-    .skillsTable {
-        margin: 20px auto; 
+        .body p {
+            font-size: 16px;
+        }
     }
+}
 
-    table {
-        width: 100%; 
+@media (width >= 800px) {
+    .container {
+        .header{
+            padding: 0 20px;
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+        .body p{
+            font-size: 18px;
+        }
     }
+}
 
-    th, td {
-        font-size: 1em;
-    }
+@media (width >= 1200px) {
+    .container {
+        padding: 0 60px;
 
-    img {
-        width: 8px;
+        hr {
+            width: 96%;
+        }
+
+        .header{
+            padding: 0 20px;
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+        .body p{
+            font-size: 18px;
+        }
     }
 }

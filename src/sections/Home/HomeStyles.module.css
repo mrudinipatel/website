@@ -111,7 +111,8 @@
     height: 25px;
     min-width: 20px;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .colourMode:hover {

@@ -2,7 +2,7 @@
 
 website: coming soon!
 
-### Technologies Used 🌏
+### Tech Stack 🌏
 
 <p align="left">
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="ReactJS"/>
@@ -18,12 +18,14 @@ website: coming soon!
 ### To Launch 🚀
 
 Navigate inside the repo and run:  
+
 ```npm install``` (if you don't have npm already)  
 ```npm run dev```  
+
 Open the terminal-provided localhost url in a browser of your choice and voilà! 🪄
 
 ### Ending Notes 💌
 
-This website is, and always will be, a work in progress! As I navigate through life, I’ll do my best to keep it updated with my latest findings — mostly for my own record, but also for anyone curious. A section for my co-op experiences and a gallery for my hobbies are currently on my mind — but that’s just some food for thought :)
+This website is, and always will be, a work in progress! As I navigate through life, I’ll do my best to keep it updated with my latest findings — mostly for my own record, but also for anyone curious. A section for my co-op experiences and a gallery for my hobbies are currently on my mind — but that’s just some food for thought (pun intended lol) :)
 
 Thank you for stopping by <3

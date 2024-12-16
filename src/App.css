@@ -5,7 +5,7 @@
     --text-colour: #141414;
     --theme-text-colour: #f9c6d3;
     --grey-text-colour: #767676;
-    --navbar-background: rgb(255, 255, 255);
+    --navbar-background: rgba(255, 255, 255, 0.889);
 }
 
 [data-theme='dark'] {
@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 60px;
-    padding: 0 60px;
+    padding: 0 40px;
     box-sizing: border-box;
     max-width: 100%;
     width: 100%;
