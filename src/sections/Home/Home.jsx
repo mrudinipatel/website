@@ -2,11 +2,11 @@ import styles from './HomeStyles.module.css';
 import me from '../../assets/me.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
-import CV from '../../assets/resume.pdf';
+import CV from '../../../public/resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import Typewriter from './Typewriter';
 import Socials from './Socials';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Home() {
     const { theme, toggleTheme } = useTheme();
