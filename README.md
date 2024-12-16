@@ -1,6 +1,6 @@
 ## My Personal Portfolio 🧳
 
-website: coming soon!
+website: https://mrudini.netlify.app/  
 
 ### Tech Stack 🌏
 
