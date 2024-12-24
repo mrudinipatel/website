@@ -19,7 +19,6 @@ Navigate inside the repo and run:
 
 For installation (if you don't have this already):  
 ```npm install```  
-```npm install react-router-dom```   
 
 For compilation:  
 ```npm run dev```   
