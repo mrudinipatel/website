@@ -4,24 +4,25 @@ import lightArrow from '../assets/arrow-light.svg';
 import { useTheme } from './ThemeContext';
 import styles from '../sections/About/AboutStyles.module.css';
 
-function SkillList() {
+function CourseList () {
     const { theme } = useTheme();
     const themeArrow = theme === 'light' ? lightArrow : darkArrow;
-    const [groupSize, setGroupSize] = useState(4);
+    const [groupSize, setGroupSize] = useState(3);
 
-    const technicalSkills = [
-        'ReactJS', 'JavaScript', 
-        'NodeJS', 'Figma', 'HTML/CSS', 'C', 
-        'Java', 'Python', 'jQuery', 'PHP', 
-        'SQL/SQLite', 'Azure DevOps', 'GCP', 
-        'Git', 'Docker', 'Linux', 'Jenkins', 
-        'Postman', 'IntelliJ', 'Jest', 'Playwright'
+    const courses = [
+        'Data Structures', 'Algorithms', 
+        'Object Oriented Programming', 'Databases', 
+        'Software Engineering', 'Software Testing', 
+        'System Design', 'Human Computer Interaction',
+        'Mobile Computing', 'Compilers', 'User Interface Design',
+        'Statistics', 'Data Science', 'Operating Systems',
+        'Microcomputers', 'Linear Algebra', 'Discrete Mathematics'
     ];
 
     useEffect(() => {
         const mediaQuery = window.matchMedia('(max-width: 600px)');
         const updateGroupSize = () => {
-            setGroupSize(mediaQuery.matches ? 3 : 4);
+            setGroupSize(mediaQuery.matches ? 2 : 3);
         };
 
         updateGroupSize();
@@ -42,11 +43,11 @@ function SkillList() {
     };
 
     return (
-        <div className={styles.skillsContainer}>
-            <h3>Skills</h3>
+        <div className={styles.courseContainer}>
+            <h3>Notable Courses</h3>
 
             <ul className={styles.list}>
-                {groupSkills(technicalSkills, groupSize).map((group, index) => (
+                {groupSkills(courses, groupSize).map((group, index) => (
                 <li className={styles.listItem} key={index}>
                     <img className={styles.bulletIcon} src={themeArrow} alt="Arrow bullet point" /> 
                     {group.join(', ')}
@@ -57,4 +58,4 @@ function SkillList() {
     );
 }
 
-export default SkillList;
+export default CourseList;

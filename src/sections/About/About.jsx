@@ -1,5 +1,6 @@
 import styles from './AboutStyles.module.css';
 import SkillList from '../../common/SkillList';
+import CourseList from '../../common/CourseList';
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
         <h1 className="sectionTitle">About me</h1>
         <div className={styles.header}>
             <h3>Mrudini Patel</h3>
-            <p>Computer Science Student @ UoGuelph | Avid Developer & Designer</p>
+            <p>Computer Science Student @ UoGuelph | Avid Designer & Developer</p>
         </div>
         <hr />
         <div className={styles.body}>
@@ -15,12 +16,12 @@ function About() {
                 Hello! My name is Mrudini. I'm currently finishing my final year of computer science studies at the University of Guelph.  
                 I have a passion for creating innovative, UI/UX-friendly websites that deliver seamless and engaging user experiences.
                 While front-end development fuels my creativity, I simultaneously also enjoy diving into the technical intricacies offered by
-                back-end and cloud development. I find fulfillment in building robust systems that not only support meaningful user interfaces,
+                full-stack development. I find fulfillment in building robust systems that not only support meaningful user interfaces,
                 but also ensure reliability and scalability behind the scenes.
                 <br/><br/>
                 Through my academic and work experiences, I've developed strong skills in full-stack development, problem-solving, 
                 and collaborating in agile environments. Working on various projects has also enabled me to design and implement clean, 
-                efficient, user-focused solutions while continuously learning and improving my expertise.
+                efficient, and user-focused solutions while continuously learning and improving my expertise.
                 <br/><br/>
                 I hope this website provides a glimpse into who I am, my skills, experiences, and the passion I bring to everything I create!
 
@@ -39,8 +40,9 @@ function About() {
             <p><b className={styles.bold}>Hobbies:</b> reading, baking, drawing, music, movies, hiking.</p>
         </div>
         <hr />
-        <div className={styles.smth}>
+        <div className={styles.listSection}>
             <SkillList />
+            <CourseList />
         </div>
     </section>
   );
