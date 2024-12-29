@@ -11,11 +11,11 @@ function SkillList() {
 
     const technicalSkills = [
         'ReactJS', 'JavaScript', 
-        'NodeJS', 'Figma', 'HTML/CSS', 'C', 
+        'NodeJS', 'Material UI', 'Figma', 'HTML/CSS', 'C', 
         'Java', 'Python', 'jQuery', 'PHP', 
-        'SQL/SQLite', 'Azure DevOps', 'GCP', 
+        'SQL/MySQL', 'Azure DevOps', 'GCP', 
         'Git', 'Docker', 'Linux', 'Jenkins', 
-        'Postman', 'IntelliJ', 'Jest', 'Playwright'
+        'Postman', 'IntelliJ', 'Jest', 'Playwright', 'npm'
     ];
 
     useEffect(() => {
